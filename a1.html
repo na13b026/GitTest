@@ -1,0 +1,24 @@
+<script>
+    var a=prompt("Enter number 1");
+    var b=prompt("Enter number 2");
+    var c=prompt("Enter number 3");
+    var tot=Number(a)+Number(b)+Number(c);
+    var avg=tot/3;
+    var msg="Total marks "+tot+"\n";
+    msg+="Avg marks : " +avg+ "\n";
+
+
+    if (a>=35 && b>=35 && c>=35){ result="PASS";
+    if ( avg>60) grade="A";
+    else if ( avg>50) grade="B";
+    else  grade="C";
+}
+    else{
+        result="FAIL";
+        grade="NA";
+    }
+    alert(result);
+    alert(grade);   
+
+   </script>
+
